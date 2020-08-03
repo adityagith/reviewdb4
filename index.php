@@ -166,7 +166,7 @@
                                echo "<h3 class='h3'>".$row['name']."</h3><hr color='white'>";
                            }
                            echo "<h2>Add a review</h2>";
-                           echo "<form action='review.php' method='POST'>";
+                           echo "<form action='https://reviewonlinebakery.herokuapp.com' method='POST'>";
                            echo "<input id = 'name'  placeholder='Enter your name' name='name'>"."<br>";
                            echo "<textarea placeholder='Enter your experience' value='exp' name='exp'></textarea><br>";
                            echo "<button onclick='submit'>Submit</button>";
