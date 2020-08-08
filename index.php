@@ -213,7 +213,7 @@
                       $status2 = mysqli_query($conn,$sql2);
                       if($status2)
                       {
-                          echo "<script>alert('Review Added Successfully Please refresh the page to view updated list')</script>";
+                          header("refresh: 3"); 
                       }
                       else{
                         echo "Our servers are down";
